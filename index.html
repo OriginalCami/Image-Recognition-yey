@@ -17,14 +17,12 @@
 
   <body>
   <div class="container">
-    
-    <center>
-    <h3 class="btn btn-default heading" >IMAGE RECOGNISER</h3>
+    <h2 class="btn btn-default heading" >IMAGE RECOGNITION WEB APP</h2>
       <br><br>
 
-      <p style="font-size: 22px;" class="btn btn-default">Model is trained to identify the following objects: </p>
+      <p style="font-size: 22px;" class="btn btn-default heading">MODEL IS TRAINED TO IDENTIFY THE FOLLOWING OBJECTS: </p>
        <br><br>
-       <b class="name_of_objects">RAT TEST <hr> ME <hr> CAKE <hr> TISSUE BOX <hr></b>
+       <b class="name_of_objects" style="font-size: 22px;">IRON MAN <hr> SPIDERMAN <hr> CAPTAIN AMERICA <hr></b>
       <p class="text-">Webcam View - </p>
       <div id="camera"></div>
       <br><br>
@@ -32,17 +30,14 @@
       <br><br>
       <button class="btn btn-default" onclick="take_snapshot();">Capture Image</button>
       <br><br>
-      <button class="btn btn-default" onclick="check();">Idenify Image</button>
+      <button class="btn btn-default" onclick="checking();">Idenify Image</button>
       <br><br>
 
-      <p style="font-size: 22px;">Object :<span id="result_object_name"></span>  </p>
-      <p style="font-size: 22px;">Accuracy :<span id="result_object_accuracy"></span>  </p>
-    </center>
+      <p style="font-size: 22px;">Object :<span id="result_object"></span>  </p>
+      <p style="font-size: 22px;">Accuracy :<span id="result_accuracy"></span>  </p>
 
   </div>
 <script src="main.js"></script>
 
   </body>
 </html>
-
- 
